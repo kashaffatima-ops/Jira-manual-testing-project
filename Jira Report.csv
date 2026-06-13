@@ -1,0 +1,1695 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Inward issue link (Blocks),Outward issue link (Blocks),Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Execution date),Custom field (Execution date),Custom field (Goals),Custom field (Impact),Custom field (Issue color),Custom field (Locked forms),Custom field (Open forms),Custom field (Project overview key),Custom field (Project overview status),Custom field (Rank),Custom field (Request Type),Custom field (Sentiment),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Total forms),Custom field (Vulnerability),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Status Category,Status Category Changed
+Bug 16: Event Proposal Request Allows Past Date Submission,HOP-78,10078,Bug,Open,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 8:22 PM,16/Sep/24 10:16 PM,16/Sep/24 11:26 PM,,,0,"*Summary:*
+
+The app permits users to propose events in the past, which should not be allowed.
+
+*Description:*
+
+The app allows user to send a request of event proposal in past. It lets user know that request has sent when user press “Send“ by popup message “Event request sent successfully“
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Add event request“ module.
+# Enter all the data required.
+# Set date from past.
+# Press “Send“ button.
+
+*Affected component:*
+
+* Event Proposal Request Form (Date Validation)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-62,16/Sep/24 8:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160040.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10159,16/Sep/24 8:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160058.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10158,16/Sep/24 8:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160152.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10160,,,,,,,,,,,,,,,,,,,,,,0|i000g7:,,,HOP Sprint 1,,,,,,,,,,,,To Do,16/Sep/24 10:16 PM
+Bug 15:  Empty Event Proposal Request Form Submission Allowed,HOP-77,10077,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 8:20 PM,16/Sep/24 8:20 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app permits users to send an empty event proposal request, which should be prevented.
+
+*Description:*
+
+The app allows user to send an empty request of event proposal. It lets user know that request has sent when user press “Send“ by popup message “Event request sent successfully“
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Add event request“ module.
+# Press “Send“ button.
+
+*Affected component:*
+
+* Event Proposal Request Form (Validation Check for Empty Fields)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-60,16/Sep/24 8:19 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10156,16/Sep/24 8:19 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160058.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10157,16/Sep/24 8:19 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160200.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10155,,,,,,,,,,,,,,,,,,,,,,0|i000fz:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:20 PM
+Bug 14: Empty Event Participation Request Form Submission Allowed,HOP-76,10076,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 8:14 PM,16/Sep/24 8:14 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows users to send an empty participation request for an event, which should be restricted.
+
+*Description:*
+
+The app allows user to send an empty request for event participation. It lets user know that request has sent when user press “Send“ by popup message “Participation request sent successfully!!”
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Event participation request“ module.
+# Press “Send“ button.
+
+*Affected component:*
+
+* Event Participation Request Form (Validation Check for Empty Fields)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-59,16/Sep/24 8:13 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155321.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10154,,,,,,,,,,,,,,,,,,,,,,,,0|i000fr:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:14 PM
+Bug 13: Invalid Email Format Accepted During Add Member Operation,HOP-75,10075,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 8:11 PM,16/Sep/24 8:12 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows users to add a new member with an incorrectly formatted email, which should be restricted.
+
+*Description:*
+
+When user tries to create a new member and  member’s email that user entered  does not follow the criteria, the app allows it, and data is updated on database. 
+
+* *Steps to reproduce:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Select “Member's  Directory“.
+# Select “Plus” button in the member’s directory you want to to add member.
+# Enter an invalid email format.
+# Enter required fields
+# Press “Update“ button.
+
+*Affected component:*
+
+* Member’s Directory Module (Email Validation for Adding Member)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-45,16/Sep/24 8:09 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 114107.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10153,16/Sep/24 8:09 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 114141.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10152,,,,,,,,,,,,,,,,,,,,,,,0|i000fj:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:11 PM
+Bug 12: Empty Member Data Allowed During Add Member Operation,HOP-74,10074,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 8:05 PM,16/Sep/24 8:05 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows users to add a member even if required fields are empty, which should be restricted.
+
+*Description:*
+
+When user tries to update member's data that has nothing in its text fields, the app  allows him to do so. And data is added in database. It updates user by popup message “Successfully added member!“.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Member’s directory” module.
+# Select “Plus” button to add member.
+# Leave all text fields empty and try to update the form.
+# Press “Add“ button.
+
+*Affected component:*
+
+* Member’s Directory Module (Form Validation for Adding Member)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-44,16/Sep/24 8:03 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10151,16/Sep/24 8:03 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113949.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10149,16/Sep/24 8:03 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113958.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10150,,,,,,,,,,,,,,,,,,,,,,0|i000fb:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:05 PM
+Bug 11: Invalid Email Format Allowed During Member Data Update,HOP-73,10073,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 8:01 PM,16/Sep/24 8:23 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows users to update member data using an email that does not have the required format, which should be restricted.
+
+*Description:*
+
+When user tries to update member’s email that does not follow the criteria, the app allows it, and data is updated on database. 
+
+* *Steps to reproduce:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Select “Member's  Directory“.
+# Select “Edit” button on the member’s data you want to update.
+# Enter an invalid email format.
+# Enter required fields
+# Press “Update“ button.
+
+*Affected component:*
+
+* Member’s Directory Module (Email Validation)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-39,16/Sep/24 7:59 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 102901.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10146,16/Sep/24 8:00 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 102947.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10147,16/Sep/24 7:59 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 103022.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10148,,,,,,,,,,,,,,,,,,,,,,0|i000f3:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:23 PM
+Bug 10: Updating Member Data with Empty Fields,HOP-72,10072,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:57 PM,16/Sep/24 7:57 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows users to update member data with empty fields, which should be restricted.
+
+The app allows user to update data without entering any data in required text fields, it should be restricted.
+
+*Description:*
+
+When user tries to update member's data that has nothing in its text fields, the app allows him to do so. And data is updated in database
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Member’s directory” module.
+# Select “Edit” button on a member data.
+# Leave all text fields empty and try to update the form.
+# Press “Update“ button.
+
+*Affected component:*
+
+* Member’s Directory Module
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-38,16/Sep/24 7:55 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 104340.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10144,16/Sep/24 7:55 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 104354.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10145,,,,,,,,,,,,,,,,,,,,,,,0|i000ev:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 7:57 PM
+Bug 9: Adding Meeting Schedule in the Past,HOP-71,10071,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:53 PM,16/Sep/24 7:54 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows user to set meetings schedule in past date, which is not technically correct.
+
+*Description:*
+
+When user tries to add schedule for meeting in past, the app allows him to do so. App updates the user with popup message “Meeting added successfully in schedule“ when user selects “Done“ button and is added in database.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Meeting schedule board” module.
+# Navigate to date in past and select “Plus“ button to add meeting. 
+# A pop up form appears, enter required data in text fields.
+# Press “Done“ button.
+
+*Affected component:*
+
+* Meeting Schedule Board Module
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-35,16/Sep/24 7:51 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 031923.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10142,16/Sep/24 7:51 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 032000.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10143,,,,,,,,,,,,,,,,,,,,,,,0|i000en:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 7:53 PM
+Bug 8: Event Update with Empty Fields Allowed,HOP-70,10070,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:47 PM,16/Sep/24 7:48 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app let user to edit text field and update it even though some required text fields are empty.
+
+*Description:*
+
+When user tries to update an event that has empty text fields, the app allows him to do so. When user press “Update” button event is added to database and a popup message informs user  “Successfully updated event!“.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “View event” module.
+# Press “Edit” button on one of the event.
+# Enter data in few fields and leave few empty.
+# Press “Update“ button.
+
+*Affected component:*
+
+* Event Update Module
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-30,16/Sep/24 7:47 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 013538.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10140,16/Sep/24 7:47 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 013749.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10141,16/Sep/24 7:46 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 013837.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10139,,,,,,,,,,,,,,,,,,,,,,0|i000ef:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 7:47 PM
+"Bug 7: Numeric Data Allowed in ""Event Name"" Field",HOP-69,10069,Bug,Open,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:40 PM,16/Sep/24 10:42 PM,16/Sep/24 10:42 PM,,,0,"*Summary:*
+
+The text field ""Event Name"" in ""Add Event"" module allows user to enter numeric data in it, which should be prohibited.
+
+*Description:*
+
+When user tries to enter numeric data in “Event name“ in Add event module, App allows user to do so and event is then saved in data base as shown in pictures.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Add numeric data in “Event name“ text field.
+# Enter valid data in all text fields that is required.
+# Press “Add“ button.
+
+*Affected component:*
+
+* Event Creation Module (""Event Name"" Text Field)
+
+*Severity:  Medium*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-27,16/Sep/24 7:41 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002350.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10137,16/Sep/24 7:41 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002414.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10136,16/Sep/24 7:41 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 004056.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10138,,,,,,,,,,,,,,,,,,,,,,0|i000e7:,,,HOP Sprint 1,,,,,,,,,,,,To Do,16/Sep/24 10:42 PM
+"Bug 6: Non-Numeric Data Allowed in ""Budget"" Field",HOP-68,10068,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:36 PM,16/Sep/24 8:14 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The text field “Budget“ allows user to enter non-numeric data in it.
+
+*Description:*
+
+When user tries to enter non-numeric data in “Budget“ in Add event module, App allows user to do so and event is then saved in data base as shown in pictures.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Add non-numeric data in “Budget“ text field.
+# Enter valid data in all text fields that is required.
+# Press “Add“ button.
+
+*Affected component:*
+
+* Event Creation Module (""Budget"" Text Field)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-26,16/Sep/24 7:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002336.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10134,16/Sep/24 7:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002350.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10135,16/Sep/24 7:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002414.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10133,,,,,,,,,,,,,,,,,,,,,,0|i000dz:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:14 PM
+Bug 5: Event Description Field Word Limit Issue,HOP-67,10067,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:28 PM,16/Sep/24 7:29 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+A text field “Event description” in “Add event“ module allow only 73 words submission but its limit is 500.
+
+*Description:*
+
+When user tries to enter more than 500 words in “Event description“ in Add event module, user can only enter 73 words as shown in the picture. Text field does not allow to enter further words
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Enter 502 words in “Event Description“ text field.
+# Enter valid data in all text fields that is required.
+# Press “Add“ button.
+
+*Affected component:*
+
+* Event Creation Module (""Event Description"" Text Field)
+
+*Severity:  Medium*
+
+*Priority: Medium*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-25,16/Sep/24 7:29 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 001023.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10131,16/Sep/24 7:29 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 001257.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10132,,,,,,,,,,,,,,,,,,,,,,,0|i000dr:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 7:28 PM
+Bug 4: Event is added in past by user,HOP-66,10066,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:22 PM,16/Sep/24 8:06 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app allows users to add events in past. It should not be permitted and error message must be displayed.
+
+*Description:*
+
+When user tries to add an event in past by choosing a previous date from present, app allows him to do so. Event is then added in database.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Select a date from past and tries to submit it.
+# Press “Add“ button.
+
+*Affected component:*
+
+* Event creation module (Date validation)
+
+*Severity:  High*
+
+*Priority: Medium*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-24,16/Sep/24 7:22 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 235830.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10130,16/Sep/24 7:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 235842.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10129,16/Sep/24 7:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 235900.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10128,,,,,,,,,,,,,,,,,,,,,,0|i000dj:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:06 PM
+Bug  3: Events added without data in the required fields,HOP-65,10065,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:13 PM,16/Sep/24 8:06 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app lets user to add  an event that has nothing in its text fields.
+
+*Description:*
+
+When user tries to add an event that has nothing in its text fields, the app allows him to do so. When user press “Add” button event is added to database and a popup message informs user “Event is added!“.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Leave all text fields empty and try to submit the form.
+# Press “Add“ button.
+
+*Affected component:*
+
+* Authentication (Reset password feature)
+
+*Severity:* High",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-23,16/Sep/24 7:13 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 225936.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10127,16/Sep/24 7:13 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 234022.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10126,,,,,,,,,,,,,,,,,,,,,,,0|i000db:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 8:06 PM
+Bug 2: Email of invalid format Allows Sign-Up Without Error Notification,HOP-64,10064,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 7:04 PM,16/Sep/24 7:15 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app let user to sign in with an invalid email format and fails to display the error message to user. Hence it results in registration of user in database
+
+*Description:*
+
+When user tries to signup using an email that does not follow requirements, app  allows it and user is added in database. App also does not notify any issue to user by displaying any error message.
+
+* *Steps to Reproduce:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Enter valid username , email and password.
+# Select the role from drop down menu.
+# Press “Sign up“ button.
+
+*Affected component:* Sign-Up (Email Validation)
+
+*Severity:* High",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-22,16/Sep/24 7:06 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 223536.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10124,16/Sep/24 7:06 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 233938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10125,,,,,,,,,,,,,,,,,,,,,,,0|i000d3:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 7:04 PM
+ygyfyvu,KNVG-1,10063,Task,To Do,KNVG,knvg,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 6:39 PM,16/Sep/24 6:39 PM,16/Sep/24 11:28 PM,,,0,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0|i000cv:,,,KNVG Sprint 1,,,,,,,,,,,,To Do,16/Sep/24 6:39 PM
+Bug 1: Email sent for reset password on which account does not exists,HOP-63,10062,Bug,In Progress,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 6:19 PM,16/Sep/24 7:15 PM,16/Sep/24 11:28 PM,,,0,"*Summary:*
+
+The app accidently sends reset password of an email on which account does not exists.
+
+*Description:*
+
+The user tries to reset password of an email on which account does not exists. When user presses “Send reset link“, the app mistakenly sends password reset email even though no account exists on that email.
+
+* *Steps to reproduce:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page
+# Press “forget password” button
+# Enter email in text field and press “Send reset link“
+
+(A reset link will be sent in Email)
+
+*Affected component:*
+
+* Authentication (Reset password feature)
+
+*Severity:  High*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,HOP-14,16/Sep/24 6:24 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 184142.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10123,,,,,,,,,,,,,,,,,,,,,,,,0|i000cn:,,,HOP Sprint 1,,,,,,,,,,,,In Progress,16/Sep/24 6:51 PM
+Test case 47: Event proposal request in past,HOP-62,10061,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:34 PM,16/Sep/24 9:20 PM,16/Sep/24 11:07 PM,16/Sep/24 4:34 PM,,0,"*Summary:*
+
+The test case will check the behavior of app when user wants to propose an event to occur in past.
+
+*Description:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Add event request“ module.
+# Enter all the data required.
+# Set date from past.
+# Press “Send“ button.
+
+*Test Data:* 
+
+Budget: 10000
+
+Date: 2024-09-03
+
+Description: description is here
+
+Event Name: Past Event
+
+Venue: B-229
+
+Time: 4:00 PM
+
+Organizer: FSES
+
+*Expected Result:*
+
+The app should not allow user to send a request of event proposal in past. It should let user know that request hasn't been sent when user press “Send“ by popup message “Event can’t be created in past“ 
+
+*Actual result:*
+
+The app allows user to send a request of event proposal in past. It lets user know that request has sent when user press “Send“ by popup message “Event request sent successfully“ 
+
+*Status: Fail*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-78,,16/Sep/24 4:33 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160040.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10119,16/Sep/24 4:33 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160058.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10121,16/Sep/24 4:33 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160152.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10120,,,,,,,,,,,,,,11/Sep/24 12:00 AM,,,,,,,,0|i000cf:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_2772749_*|*_10005_*:*_1_*:*_485,Done,16/Sep/24 4:34 PM
+Test case 46: Event participation request,HOP-61,10060,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:32 PM,16/Sep/24 9:20 PM,16/Sep/24 11:07 PM,16/Sep/24 4:32 PM,,0,"*Summary:*
+
+The test case will check the behavior of app when user wants to apply for the participation in the event.
+
+*Description:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Event participation request“ module.
+# Enter all the data required.
+# Press “Send“ button.
+
+*Test Data:* 
+
+Batch: 22
+
+Email: [saim@gmail.com|mailto:saim@gmail.com]
+
+First name: Saim
+
+Last name: Nevaan
+
+Phone number: 03123456789
+
+*Expected Result:*
+
+The app should allow user to send a request for event participation. It should let user know that request has sent when user press “Send“ by popup message “Participation request sent successfully“ 
+
+*Actual result:*
+
+The app allows user to send a request for event participation. It lets user know that request has sent when user press “Send“ by popup message “Participation request sent successfully!!”
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 4:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155311.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10117,16/Sep/24 4:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155321.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10118,,,,,,,,,,,,,,,10/Sep/24 12:00 AM,,,,,,,,0|i000c7:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_497,Done,16/Sep/24 4:32 PM
+Test case 45: Empty form submission of event proposal request,HOP-60,10059,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:27 PM,16/Sep/24 9:20 PM,16/Sep/24 11:07 PM,16/Sep/24 4:27 PM,,0,"*Summary:*
+
+The test case will check the behavior of app when user wants to propose an event to occur.
+
+*Description:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Add event request“ module.
+# Press “Send“ button.
+
+*Test Data:* 
+
+Let text feels remain empty.
+
+*Expected Result:*
+
+The app should not allow user to send an empty  request of event proposal. It should let user know that request hasn’t been sent when user press “Send“ by popup message “Please enter all required information“ 
+
+*Actual result:*
+
+The app allows user to send an empty request of event proposal. It lets user know that request has sent when user press “Send“ by popup message “Event request sent successfully“ 
+
+*Status: Fail*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-77,,16/Sep/24 4:26 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10113,16/Sep/24 4:25 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160058.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10114,16/Sep/24 4:25 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160200.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10112,,,,,,,,,,,,,,10/Sep/24 12:00 AM,,,,,,,,0|i000bz:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_998,Done,16/Sep/24 4:27 PM
+Test case 44: Empty form submission of event participation request,HOP-59,10058,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:24 PM,16/Sep/24 9:20 PM,16/Sep/24 11:07 PM,16/Sep/24 4:24 PM,,0,"*Summary:*
+
+The test case will check the behavior of app when user wants to apply for the participation in the event without filling any text fields of form.
+
+*Description:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Event participation request“ module.
+# Press “Send“ button.
+
+*Test Data:* 
+
+Let text fields remain empty.
+
+*Expected Result:*
+
+The app should not allow user to send an empty request for event participation. It should let user know that request hasn’t been sent when user press “Send“ by popup message “Please enter all required information“ 
+
+*Actual result:*
+
+The app allows user to send an empty request for event participation. It lets user know that request has sent when user press “Send“ by popup message “Participation request sent successfully!!”
+
+*Status: Fail*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-76,,16/Sep/24 4:29 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155321.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10116,,,,,,,,,,,,,,,,10/Sep/24 12:00 AM,,,,,,,,0|i000br:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_356,Done,16/Sep/24 4:24 PM
+Test case 43: Event proposal request,HOP-58,10057,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:21 PM,16/Sep/24 10:39 PM,16/Sep/24 11:07 PM,16/Sep/24 4:21 PM,,0,"*Summary:*
+
+The test case will check the behavior of app when user wants to propose an event to occur.
+
+*Description:*
+
+# Open Nimbus app
+# Login in the app
+# Go to “Add event request“ module.
+# Enter all the data required.
+# Press “Send“ button.
+
+*Test Data:* 
+
+Budget: 12000
+
+Date: 2024-09-20
+
+Description: hre is the descriptipn
+
+Event Name: Event 1
+
+Venue: A-315
+
+Time: 3:00 PM
+
+Organizer: FSES
+
+*Expected Result:*
+
+The app should allow user to send a request of event proposal. It should let user know that request has sent when user press “Send“ by popup message “Event request sent successfully“ 
+
+*Actual result:*
+
+The app allows user to send a request of event proposal. It lets user know that request has sent when user press “Send“ by popup message “Event request sent successfully“ 
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 4:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155858.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10111,16/Sep/24 4:21 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155923.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10110,16/Sep/24 4:28 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 160152.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10115,,,,,,,,,,,,,,10/Sep/24 12:00 AM,,,,,,,,0|i000bj:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_462,Done,16/Sep/24 4:21 PM
+Test case 42: Approve event participation request,HOP-57,10056,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:18 PM,16/Sep/24 9:20 PM,16/Sep/24 11:07 PM,16/Sep/24 4:18 PM,,0,"*Summary:*
+
+The test case will check the Approval status of an event participation request of students, when users approve it. It checks when user approve the request does it’s approval status changes or not in database.
+
+*Description:*
+
+# Open Nimbus app
+# Login as president
+# Go to “Approve event participation request“ module.
+# Press “Approve“ button to approve event requests.
+
+*Test Data:* 
+
+*Expected Result:*
+
+The app should update Approval status of the event participation request of other users in database when user approves the event.
+
+*Actual result:*
+
+When user approves the event participation request, then app updates the Approval status of event true in database as shown in attached picture. It updates user by popup message saying “Application approved successfully!!“.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 4:18 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155008.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10109,16/Sep/24 4:18 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155027.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10108,,,,,,,,,,,,,,,09/Sep/24 12:00 AM,,,,,,,,0|i000bb:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_364,Done,16/Sep/24 4:18 PM
+Test case 41: Approval of event request by president,HOP-56,10055,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:17 PM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 4:17 PM,,0,"*Summary:*
+
+The test case will check the Approval status of an event request when users approve it. It checks when user approve the request does it’s approval status changes or not.
+
+*Description:*
+
+# Open Nimbus app
+# Login as president
+# Go to “Approve event request“ module.
+# Press “Approve“ button to approve event requests.
+
+*Test Data:* 
+
+*Expected Result:*
+
+The app should update Approval status of the event in database when user approves the event.
+
+*Actual result:*
+
+When user approves the event, then app updates the Approval status of event true in database as shown in attached picture. It updates user by popup message saying “Event approved successfully!!“.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 4:17 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155043.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10107,16/Sep/24 4:17 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 155057.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10106,16/Sep/24 4:50 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 165039.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10122,,,,,,,,,,,,,,09/Sep/24 12:00 AM,,,,,,,,0|i000b3:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_378,Done,16/Sep/24 4:17 PM
+Test case 40: Only president and Mentor can upload images of events,HOP-55,10054,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 4:08 PM,16/Sep/24 10:39 PM,16/Sep/24 11:06 PM,16/Sep/24 4:08 PM,,0,"*Summary:*
+
+This test case will confirm that only president and mentor can upload pictures of an event.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app as president.
+# Go to “Event image” module .
+# Check if there is “Add“  button at the right bottom.
+# Sign out from the app by clicking “Sign out“ button in sliding menu bar.
+# Sign up in app as member.
+# Go to “Event image” module .
+# Check if there is “Add“  button at the right bottom.
+
+*Test Data:*
+
+1st input:
+
+* Email: [kas@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+2nd input:
+
+* Email: [eman@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+*Expected Result:*
+
+The app should only allow president and mentor to upload image by giving “Upload“ option to president and mentor only.
+
+*Actual result:*
+
+The app  only allow president and mentor to upload image by giving “Upload“ option to president and mentor only. We can see it in attached images.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 4:15 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;tb402.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10105,16/Sep/24 4:15 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;tc40.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10104,,,,,,,,,,,,,,,09/Sep/24 12:00 AM,,,,,,,,0|i000av:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_452,Done,16/Sep/24 4:08 PM
+Test case 39: Upload images of event in already existed folder,HOP-54,10053,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 3:22 PM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 3:22 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to upload event images from drive in already existed folder on database.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Event image” module .
+# Press “Add” button on at bottom right corner of page.
+# Select images from drive.
+# In popup menu enter folder name of existing folder in which you want to add new images.
+# Press “Submit“ button.
+
+*Test Data:*
+
+Select images from drive
+
+*Expected Result:*
+
+The app should allow user to Upload images from his drive, app should add images in already existed folder of which user enters the name . Also it should upload images on database
+
+*Actual result:*
+
+The app allows user to Upload images from his drive. App  adds images in already existed folder of which user enters the name . Also it uploads images on database. It updates user by showing popup message “Images uploaded successfully!!“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 3:30 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 143658.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10101,16/Sep/24 3:30 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 152747.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10102,16/Sep/24 3:30 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 152839.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10103,,,,,,,,,,,,,,09/Sep/24 12:00 AM,,,,,,,,0|i000an:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_266,Done,16/Sep/24 3:22 PM
+Test case 38: Download zip folder of a folder of event images,HOP-53,10052,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 3:11 PM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 3:11 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to download event image folder
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Event images” module .
+# Press “Download” icon on the right side of any folder
+
+*Test Data:*
+
+Select folder to download 
+
+*Expected Result:*
+
+The app should allow user to download images from the app, app should download a zip folder of the event image folder that user selected.
+
+*Actual result:*
+
+The app allows user to download images from the app. It downloads a zip folder of the event image folder that user selected.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 3:11 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 143658.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10099,16/Sep/24 3:11 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 150921.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10100,,,,,,,,,,,,,,,08/Sep/24 12:00 AM,,,,,,,,0|i000af:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_1101,Done,16/Sep/24 3:11 PM
+Test case 37: Upload pictures of event in Event images in new folder,HOP-52,10051,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:39 PM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 2:39 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to upload event images from drive, by creating a new folder.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Event image” module .
+# Press “Add” button on at bottom right corner of page.
+# Select images from drive.
+# In popup menu enter new folder name.
+# Press “Submit“ button.
+
+*Test Data:*
+
+Select images from drive
+
+*Expected Result:*
+
+The app should allow user to Upload images from his drive, app should create a new folder and add images in it. Also it should upload images on database
+
+*Actual result:*
+
+The app  allows user to Upload images from his drive, app creates a new folder and upload images in it. Also upload images on database
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 2:39 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 143658.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10098,16/Sep/24 2:39 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 143724.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10095,16/Sep/24 2:39 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 143739.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10096,16/Sep/24 2:39 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 143807.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10097,,,,,,,,,,,,,08/Sep/24 12:00 AM,,,,,,,,0|i000a7:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_622,Done,16/Sep/24 2:39 PM
+Test case 36:  Change profile picture of user profile,HOP-51,10050,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:56 PM,16/Sep/24 10:39 PM,16/Sep/24 11:06 PM,16/Sep/24 1:56 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to change his profile picture using camera.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Profile” module by clicking profile icon at top right corner.
+# Press “Edit” button on at top right corner of page.
+# Press “+“ button on profile image.
+# Select camera and take the image and mark it.
+# Press “Update“ button.
+
+*Test Data:*
+
+Take image from camera
+
+*Expected Result:*
+
+The app should allow user to Update his profile picture when he tries take a new picture using camera, by updating it on database.
+
+*Actual result:*
+
+When user tries to update his profile picture , the app allows him to do so. When user press “Update” button, profile picture is updated in database and a popup message informs user “Successfully updated Member’s data!“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 1:57 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 135205.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10086,16/Sep/24 1:57 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 135225.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10087,16/Sep/24 1:57 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 135309.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10088,16/Sep/24 1:57 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 135327.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10089,,,,,,,,,,,,,08/Sep/24 12:00 AM,,,,,,,,0|i0009z:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_385,Done,16/Sep/24 1:56 PM
+Test case 35: Display correct user's data in profile ,HOP-50,10049,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:55 PM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 1:56 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to open his profile information.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Profile” module by clicking profile icon at top right corner.
+
+*Test Data:*
+
+noting to enter
+
+*Expected Result:*
+
+The app should allow user to see his correct profile data by fetching it on database.
+
+*Actual result:*
+
+When user tries to see his profile data , the app allows him to do so. When user press “Profile” button correct data of user is fetched from database and shown in profile page.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 2:01 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 021411.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10091,16/Sep/24 2:01 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 135309.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10090,,,,,,,,,,,,,,,07/Sep/24 12:00 AM,,,,,,,,0|i0009r:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_73627,Done,16/Sep/24 1:56 PM
+Test case 34: Edit profile data,HOP-49,10048,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:54 PM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 1:54 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to edit his profile information.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Profile” module by clicking profile icon at top right corner.
+# Press “Edit” button on at top right corner of page.
+# Enter the data that you want to edit.
+# Press “Update“ button.
+
+*Test Data:* 
+
+* Username: kashaf
+* Email: [""|https://nimbus18work.atlassian.net/jira/software/projects/HOP/boards/1/backlog?selectedIssue=HOP-41][kas@gmail.com|mailto:saim@gmail.com]""
+* Password: ""12345678Aa$""
+* Role: President
+* Age: 25
+* Post: President
+* Phone number: 03123456789
+
+*Expected Result:*
+
+The app should allow user to Update his profile data by updating it on database.
+
+*Actual result:*
+
+When user tries to update his profile data , the app allows him to do so. When user press “Update” button member’s data is updated to database and a popup message informs user  “Successfully updated Member’s data!“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 2:04 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 135309.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10093,16/Sep/24 2:04 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 140237.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10094,,,,,,,,,,,,,,,07/Sep/24 12:00 AM,,,,,,,,0|i0009j:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_430,Done,16/Sep/24 1:54 PM
+Test case 33: Invalid email format for creating new member,HOP-45,10044,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 11:49 AM,16/Sep/24 9:19 PM,16/Sep/24 11:06 PM,16/Sep/24 11:49 AM,,0,"*Summary:* 
+
+This test case checks the behavior of Nimbus app when user tries to add a new member and enters email of invalid format. 
+
+*Description:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Select “Member's  Directory“.
+# Select “Plus” button in the member’s directory you want to to add member.
+# Enter an invalid email format.
+# Enter required fields
+# Press “Update“ button.
+
+*Test Data:* 
+
+* Username: Amna
+* Email: [""amna@gmail|mailto:""validuser@domain.com]""
+* Password: ""12345678Aa$"" 
+* Role:  member
+* Age: 20
+* Post: member
+* Phone number: 03123456789
+
+*Expected Result:*
+
+When user tries to add a new member and member’s email that user entered that does not follow the criteria, the app should not allow it by displaying an error message “Invalid email format. Please follow format: [example@domain.com|mailto:example@domain.com]“
+
+*Actual result:*
+
+When user tries to create a new member and  member’s email that user entered  does not follow the criteria, the app allows it, and data is updated on database. 
+
+*Status: Fail*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-75,,16/Sep/24 11:53 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 114107.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10076,16/Sep/24 11:53 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 114141.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10075,,,,,,,,,,,,,,,07/Sep/24 12:00 AM,,,,,,,,0|i0008n:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_312,Done,16/Sep/24 11:49 AM
+Test case 32: Creating new member by submitting empty fields,HOP-44,10043,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 11:46 AM,16/Sep/24 9:18 PM,16/Sep/24 11:23 PM,16/Sep/24 12:12 PM,,0,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-74,,16/Sep/24 11:56 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10077,16/Sep/24 11:57 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113949.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10078,16/Sep/24 11:57 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113958.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10079,,,,,,,,,,,,,,07/Sep/24 12:00 AM,,,,,,,,0|i0008f:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_2_*:*_1221624_*|*_10003_*:*_1_*:*_2972_*|*_10005_*:*_2_*:*_321312,Done,16/Sep/24 12:12 PM
+Test case 31: Successful creation of new member,HOP-43,10042,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 11:45 AM,16/Sep/24 9:18 PM,16/Sep/24 11:22 PM,16/Sep/24 11:45 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to add a new member by entering valid data.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Member’s directory” module.
+# Select “Plus” button to add member.
+# Enter all the valid data.
+# Press “Add“ button.
+
+*Test Data:* 
+
+* Username: Huda Fatima
+* Email: [""|][hf@gmail.com|mailto:hf@gmail.com]""
+* Password: ""12345678Aa$""
+* Role: member
+* Age: 20
+* Post: member
+* Phone number: 03123456789
+
+*Expected Result:*
+
+The app should allow user to add a new member.
+
+*Actual result:*
+
+When user tries to add a new member by adding required data in text fields, the app  allows him to do so. And data is added in database. It updates user by popup message “Successfully added member!“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 12:25 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 113949.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10084,16/Sep/24 12:25 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 114253.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10083,16/Sep/24 12:25 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 114402.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10085,,,,,,,,,,,,,,07/Sep/24 12:00 AM,,,,,,,,0|i00087:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_372,Done,16/Sep/24 11:45 AM
+Test case 30: Cancel update of member's data,HOP-42,10041,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 10:36 AM,16/Sep/24 10:39 PM,16/Sep/24 11:22 PM,16/Sep/24 10:36 AM,,0,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,,,,,,,,,,,,,,,,,06/Sep/24 12:00 AM,,,,,,,,0|i0007z:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_317,Done,16/Sep/24 10:36 AM
+Test case 29:  Update member information in database with correct data,HOP-41,10040,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 10:34 AM,16/Sep/24 9:18 PM,16/Sep/24 11:21 PM,16/Sep/24 10:34 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to update an existing event.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Member’s directory” module.
+# Press “Edit” button on one of the member.
+# Rewrite the data that you want to update.
+# Press “Update“ button.
+
+*Test Data:* 
+
+* Username: saim
+* Email: [""|][saim@gmail.com|mailto:saim@gmail.com]""
+* Password: ""12345678Aa$""
+* Role: Non-society person
+* Age: 20
+* Post: Non-society person
+* Phone number: 03123456789
+
+Event Description:  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor elod wfyns wdym hseeh kucf ffo
+
+*Expected Result:*
+
+The app should allow user to Update data of an already existing member by updating it on database.
+
+*Actual result:*
+
+When user tries to update data of an already existed member, the app allows him to do so. When user press “Update” button event is added to database and a popup message informs user  “Successfully updated Member!“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 11:14 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 110938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10073,16/Sep/24 11:14 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 111016.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10074,16/Sep/24 11:14 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 111058.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10072,,,,,,,,,,,,,,06/Sep/24 12:00 AM,,,,,,,,0|i0007r:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_282,Done,16/Sep/24 10:34 AM
+Test case 28: Deletion of member ,HOP-40,10039,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 10:33 AM,16/Sep/24 9:18 PM,16/Sep/24 11:21 PM,16/Sep/24 10:33 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries delete a member.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Member’s Directory” module.
+# Delete a specific event by pressing “Delete“ button.
+
+*Test Data:* 
+
+No input (leave all fields empty).
+
+*Expected Result:*
+
+The app should allow user to delete member and displays remaining event on screen. 
+
+*Actual result:*
+
+When user tries to delete an event, event is deleted from database, app updates user with the help of popup message “Member deleted successfully!“. Remaining events are then displayed on screen
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 11:04 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 105942.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10069,16/Sep/24 11:04 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 110241.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10070,16/Sep/24 11:07 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 110710.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10071,,,,,,,,,,,,,,06/Sep/24 12:00 AM,,,,,,,,0|i0007j:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_353,Done,16/Sep/24 10:33 AM
+Test case 27: Invalid email format update of memember,HOP-39,10038,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 10:32 AM,16/Sep/24 10:39 PM,16/Sep/24 11:21 PM,16/Sep/24 10:32 AM,,0,"*Summary:* 
+
+This test case checks the behavior of Nimbus app when user tries to update data of member and enters email of invalid format. 
+
+*Description:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Select “Member's  Directory“.
+# Select “Edit” button on the member’s data you want to update.
+# Enter an invalid email format.
+# Enter required fields
+# Press “Update“ button.
+
+*Test Data:* 
+
+* Username: Sana
+* Email: [""sana@gmail|mailto:""validuser@domain.com]""
+* Password: ""12345678Aa$"" 
+* Role: 
+* Age:
+* Post: 
+
+*Expected Result:*
+
+When user tries to update member’s email that does not follow the criteria, the app should not allow it by displaying an error message “Invalid email format. Please follow format: [example@domain.com|mailto:example@domain.com]“
+
+*Actual result:*
+
+When user tries to update member’s email that does not follow the criteria, the app allows it, and data is updated on database. 
+
+*Status: Fail*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-73,,16/Sep/24 10:52 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 102901.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10067,16/Sep/24 10:52 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 102947.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10066,16/Sep/24 10:52 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 103022.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10068,,,,,,,,,,,,,,06/Sep/24 12:00 AM,,,,,,,,0|i0007b:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_1748382_*|*_10005_*:*_1_*:*_350,Done,16/Sep/24 10:32 AM
+Test case 26: Empty text fields Submission for New Member,HOP-38,10037,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 10:27 AM,16/Sep/24 9:18 PM,16/Sep/24 11:20 PM,16/Sep/24 10:27 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to update a member without entering any data in text fields also without selecting date and time.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Member’s directory” module.
+# Select “Edit” button on a member data.
+# Leave all text fields empty and try to update the form.
+# Press “Update“ button.
+
+*Test Data:* 
+
+No input (leave all fields empty).
+
+*Expected Result:*
+
+The app should not allow user to update empty member’s data.
+
+*Actual result:*
+
+When user tries to update member's data that has nothing in its text fields, the app  allows him to do so. And data is updated in database
+
+*Status:* Fail",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-72,,16/Sep/24 10:44 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 104319.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10063,16/Sep/24 10:44 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 104340.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10065,16/Sep/24 10:44 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 104354.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10064,,,,,,,,,,,,,,06/Sep/24 12:00 AM,,,,,,,,0|i00073:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_186090_*|*_10005_*:*_1_*:*_502,Done,16/Sep/24 10:27 AM
+Test case 25: Scheduling multiple meetings on same date,HOP-37,10036,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:30 AM,16/Sep/24 10:38 PM,16/Sep/24 11:20 PM,16/Sep/24 2:30 AM,,0,"*Summary:*
+
+This test case is to check that multiple meetings can be seen on single date.
+
+*Description:*
+
+# Open Nimbus app.
+# Go to “Meeting schedule board“ module and check if there are 2  or more dots on any date.
+# Select date and slide to see multiple schedule
+
+*Test Data:* 
+
+* Email: [eman@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+*Expected Result:*
+
+When user select a date having multiple dots on it, then it should display  the total number of meeting schedule equal to total number of dots on that date.
+
+*Actual result:*
+
+When user select a date having multiple dots on it, then it displays  the total number of meeting schedule equal to total number of dots on that date.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 3:34 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 033341.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10059,,,,,,,,,,,,,,,,05/Sep/24 12:00 AM,,,,,,,,0|i0006v:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_320,Done,16/Sep/24 2:30 AM
+Test case 24: Only president can schedule the meeting,HOP-36,10035,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:29 AM,16/Sep/24 9:18 PM,16/Sep/24 11:19 PM,16/Sep/24 2:29 AM,,0,"*Summary:*
+
+This test case is to check that only president can add a meeting schedule of a meeting.
+
+*Description:*
+
+# Open Nimbus app.
+# Login using president’s id.
+# Go to “Meeting schedule board“ module and check if “plus(add)“ options present.
+# Open slider “Menu“ by clicking 3 bars at top left corner
+# Sign out from app by clicking “Sign out“
+# Now, login with member’s id
+# Go to “Meeting schedule board“ module and check if “plus(add)“options present.
+
+*Test Data:* 
+
+_1st entry:_
+
+* Email: [kas@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+_2nd entry:_
+
+* Email: [eman@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+*Expected Result:*
+
+When a president login then he should only see  “plus(add)“ options in ”Meeting schedule board” module. If anyone other then president logs in then he should not see “plus(add)“ options in ”Meeting schedule board” module.
+
+*Actual result:*
+
+When a president login then he can see  “plus(add)“ options in ”Meeting schedule board” module. While when a member logs in, he does not see “plus(add)“ options in ”Meeting schedule board” module.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 3:27 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;TC23.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10058,16/Sep/24 3:27 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;TC231.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10057,,,,,,,,,,,,,,,05/Sep/24 12:00 AM,,,,,,,,0|i0006n:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_240,Done,16/Sep/24 2:29 AM
+Test case 23: Scheduling meeting in past,HOP-35,10034,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:29 AM,16/Sep/24 9:17 PM,16/Sep/24 11:19 PM,16/Sep/24 2:29 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to add a meeting schedule in past.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Meeting schedule board” module.
+# Navigate to date in past and select “Plus“ button to add meeting. 
+# A pop up form appears, enter required data in text fields.
+# Press “Done“ button.
+
+*Test Data:* 
+
+_1st input:_
+
+Time: 2:53 
+
+Location: B-229
+
+Topic: Orientation
+
+Description: “Meetings of heads for discussing main event ideas“
+
+_2nd input:_
+
+Time: 2:53 
+
+Location: A-315
+
+Topic: Qirat event
+
+Description: “Meetings of heads for discussing main event ideas“
+
+*Expected Result:*
+
+The app should not allow user to Add schedule of multiple meetings. It should inform user by displaying a message “You can’t add meeting in past“
+
+*Actual result:*
+
+When user tries to add schedule for meeting in past, the app allows him to do so. App updates the user with popup message “Meeting added successfully in schedule“ when user selects “Done“ button and is added in database.
+
+*Status:* Fail",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-71,,16/Sep/24 3:20 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 031923.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10055,16/Sep/24 3:20 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 032000.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10056,,,,,,,,,,,,,,,05/Sep/24 12:00 AM,,,,,,,,0|i0006f:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_326,Done,16/Sep/24 2:29 AM
+Test case 22: Submission of meeting Data for multiple meetings,HOP-34,10033,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:27 AM,16/Sep/24 10:39 PM,16/Sep/24 11:19 PM,16/Sep/24 2:27 AM,,0,"only enter and display from from database
+
+*Summary:*
+
+The test case will check behavior of the app when user tries to add a meeting schedule for multiple meetings
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Meeting schedule board” module.
+# Navigate to required date and select “Plus“ button to add meeting. 
+# A pop up form appears, enter required data in text fields.
+# Press “Done“ button.
+
+*Test Data:* 
+
+_1st input:_
+
+Time: 2:53 
+
+Location: B-229
+
+Topic: Orientation
+
+Description: “Meetings of heads for discussing main event ideas“
+
+_2nd input:_
+
+Time: 2:53 
+
+Location: A-315
+
+Topic: Qirat event
+
+Description: “Meetings of heads for discussing main event ideas“
+
+*Expected Result:*
+
+The app should allow user to Add schedule of multiple meetings. It should be added in database.
+
+*Actual result:*
+
+When user tries to add schedule for multiple  meeting , the app allows him to do so. App updates the user with popup message “Meeting added successfully in schedule“ when user selects “Done“ button.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 3:10 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 025648.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10050,16/Sep/24 3:10 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 030411.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10051,16/Sep/24 3:10 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 030424.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10048,16/Sep/24 3:10 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 031011.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10049,16/Sep/24 3:11 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 031110.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10052,16/Sep/24 3:11 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 031126.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10053,,,,,,,,,,,05/Sep/24 12:00 AM,,,,,,,,0|i00067:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_336,Done,16/Sep/24 2:27 AM
+Test case 21: Empty meeting data field submission ,HOP-33,10032,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:26 AM,16/Sep/24 9:17 PM,16/Sep/24 11:19 PM,16/Sep/24 2:26 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to add a meeting without entering any data in text fields also without selecting date and time.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Meeting schedule board” module.
+# Leave all text fields empty and try to submit the form.
+# Press “Done“ button.
+
+*Test Data:* 
+
+No input (leave all fields empty).
+
+*Expected Result:*
+
+The app should not allow user to Add an empty meeting schedule.
+
+*Actual result:*
+
+When user tries to schedule a meeting that has nothing in its text fields, the app does not allows him to do so. There’s no dot on date that that was selected as shown in attached picture.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,16/Sep/24 2:50 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 025021.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10046,16/Sep/24 2:57 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 025648.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10047,,,,,,,,,,,,,,,05/Sep/24 12:00 AM,,,,,,,,0|i0005z:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_14054,Done,16/Sep/24 2:26 AM
+Test case 20: Only president can update or edit an event,HOP-32,10031,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 2:01 AM,16/Sep/24 9:17 PM,16/Sep/24 11:18 PM,16/Sep/24 2:01 AM,,0,"*Summary:*
+
+This test case is to check that only president can edit and delete an event in Event log.
+
+*Description:*
+
+# Open Nimbus app.
+# Login using president’s id.
+# Go to “View Event“ module and check if edit and delete options present.
+# Open slider “Menu“ by clicking 3 bars at top left corner
+# Sign out from app by clicking “Sign out“
+# Now, login with member’s id
+# Go to “View Event“ module and check if edit and delete options present.
+
+*Test Data:* 
+
+_1st entry:_
+
+* Email: [kas@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+_2nd entry:_
+
+* Email: [eman@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678Aa$
+
+*Expected Result:*
+
+When a president login then he should only see  “Edit” and “Delete“ options in ”View Event” module. If anyone other then president logs in then he should not see “Edit“ and “Delete“ options in ”View Event” module.
+
+*Actual result:*
+
+When a president login then he can see  “Edit” and “Delete“ options in ”View Event” module. While when a member logs in, he does not see “Edit“ and “Delete“ options in ”View Event” module.
+
+*Status: Pass*",,,,,,,,,,,,,,16/Sep/24 2:19 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;TC201.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10045,16/Sep/24 2:19 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;tc20.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10044,,,,,,,,,,,,,,,04/Sep/24 12:00 AM,,,,,,,,0|i0005r:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_440,Done,16/Sep/24 2:01 AM
+Test case 19: Handle edge case events,HOP-31,10030,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:16 AM,16/Sep/24 9:17 PM,16/Sep/24 11:18 PM,16/Sep/24 1:18 AM,,0,"*Summary:*
+
+This test case will check the behavior of app when it has to display large values of data.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Enter maximum limit of data in each text field.
+# Press “Add“ button.
+# Go to “View Event“ module and check UI.
+
+*Test Data:* 
+
+Event Name: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor elod wfyns wdym hseeh kucf ffo
+
+Date: 2024-09-16
+
+Time: 12:00 PM
+
+Organizer: FSES
+
+Budget: 999999999999
+
+Venue: Auditrium
+
+Event Description:  “Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor
+
+*Expected Result:*
+
+When user tries to display exceptionally large amount of data of an event, then there should be no UI overflows.
+
+*Actual result:*
+
+When user tries to display exceptionally large amount of data of an event, then there is no UI overflows. Data is displayed properly on screen as shown in attached picture.
+
+*Status: Pass*",,,,,,,,,,,,,,16/Sep/24 1:29 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 012848.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10035,16/Sep/24 1:29 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 012912.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10034,,,,,,,,,,,,,,,04/Sep/24 12:00 AM,,,,,,,,0|i0005j:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_395266_*|*_10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_79624,Done,16/Sep/24 1:18 AM
+Test case 18: Handle empty text field submission,HOP-30,10029,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:16 AM,16/Sep/24 9:17 PM,16/Sep/24 11:17 PM,16/Sep/24 1:16 AM,,0,,,,,,,,,,,,,HOP-70,,16/Sep/24 1:39 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 013538.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10037,16/Sep/24 1:39 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 013749.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10036,16/Sep/24 1:39 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 013837.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10038,,,,,,,,,,,,,,04/Sep/24 12:00 AM,,,,,,,,0|i0005b:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_385,Done,16/Sep/24 1:16 AM
+Test case 17: Delete an event from Event list,HOP-29,10028,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:03 AM,16/Sep/24 9:17 PM,16/Sep/24 11:17 PM,16/Sep/24 1:03 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries delete an Event.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “View event” module.
+# Delete a specific event by pressing “Delete“ button.
+
+*Test Data:* 
+
+No input (leave all fields empty).
+
+*Expected Result:*
+
+The app should allow user to delete event and displays remaining event on screen. 
+
+*Actual result:*
+
+When user tries to delete an event, event is deleted from database, app updates user with the help of popup message “Event deleted successfully!“. Remaining events are then displayed on screen
+
+*Status:* Pass",,,,,,,,,,,,,,16/Sep/24 1:41 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 014041.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10039,16/Sep/24 1:41 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 014050.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10040,,,,,,,,,,,,,,,04/Sep/24 12:00 AM,,,,,,,,0|i00053:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_296,Done,16/Sep/24 1:03 AM
+Test case 16: Update event to see changes,HOP-28,10027,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 1:02 AM,16/Sep/24 9:17 PM,16/Sep/24 11:17 PM,16/Sep/24 1:02 AM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to update an existing event.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “View event” module.
+# Press “Edit” button on one of the event.
+# Rewrite the data that you want to update.
+# Press “Update“ button.
+
+*Test Data:* Event Name: 912
+
+Date: 2024-09-16
+
+Time: 12:00 PM
+
+Organizer: FSES
+
+Budget: 10000
+
+Venue: Auditorium
+
+Event Description:  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor elod wfyns wdym hseeh kucf ffo
+
+*Expected Result:*
+
+The app should allow user to Update an already existing event by updating it on database.
+
+*Actual result:*
+
+When user tries to update an already existed event, the app allows him to do so. When user press “Update” button event is added to database and a popup message informs user  “Successfully updated event!“.
+
+*Status:* Pass",,,,,,,,,,,,,,16/Sep/24 1:48 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 014629.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10043,16/Sep/24 1:48 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 014737.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10041,16/Sep/24 1:48 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 014752.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10042,,,,,,,,,,,,,,04/Sep/24 12:00 AM,,,,,,,,0|i0004v:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_326,Done,16/Sep/24 1:02 AM
+Test case 15: Input of numeric data instead of event name,HOP-27,10026,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 12:39 AM,16/Sep/24 9:17 PM,16/Sep/24 11:17 PM,16/Sep/24 12:39 AM,,0,"*Summary:*
+
+This test case check the behavior of app if user add numeric data in text field option “Event name“ in “Add event” module.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Add numeric data in “Event name“ text field.
+# Enter valid data in all text fields that is required.
+# Press “Add“ button.
+
+
+
+*Test Data:* 
+
+Event Name: 912
+
+Date: 2024-09-16
+
+Time: 12:00 PM
+
+Organizer: FSES
+
+Budget: 10000
+
+Venue: Auditrium
+
+Event Description:  “Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. “
+
+*Expected Result:*
+
+When user tries to enter numeric data  in “Event name“ in Add event module, the app should not allow user to add numeric data in Event Name and show an error message “Event name should not start with number!“.
+
+*Actual result:*
+
+When user tries to enter numeric data in “Event name“ in Add event module, App allows user to do so and event is then saved in data base as shown in pictures. 
+
+*Status: Fail*",,,,,,,,,,,,HOP-69,,16/Sep/24 12:41 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002350.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10031,16/Sep/24 12:41 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002414.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10033,16/Sep/24 12:41 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 004056.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10032,,,,,,,,,,,,,,03/Sep/24 12:00 AM,,,,,,,,0|i0004n:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_355,Done,16/Sep/24 12:39 AM
+Test case 14: Submission of budget with non-numeric input,HOP-26,10025,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 12:26 AM,16/Sep/24 9:16 PM,16/Sep/24 11:17 PM,16/Sep/24 12:26 AM,,0,"*Summary:*
+
+This test case check the behavior of app if user add non-numeric data in text field option “Budget“ in “Add event” module.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Add non-numeric data in “Budget“ text field.
+# Enter valid data in all text fields that is required.
+# Press “Add“ button.
+
+*Test Data:* 
+
+Event Name: Orientation
+
+Date: 2024-09-16
+
+Time: 12:00 PM
+
+Organizer: FSES
+
+Budget: fiftey thousand
+
+Venue: Auditrium
+
+Event Description:  “Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque“ (502 words)
+
+*Expected Result:*
+
+When user tries to enter non-numeric data  in “Budget“ in Add event module, the app should not allow user to add non-numeric data in Budget and show an error message “You can only add numeric data!“.
+
+*Actual result:*
+
+When user tries to enter non-numeric data in “Budget“ in Add event module, App allows user to do so and event is then saved in data base as shown in pictures. 
+
+*Status: Fail*",,,,,,,,,,,,HOP-68,,16/Sep/24 12:27 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002336.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10030,16/Sep/24 12:27 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002350.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10029,16/Sep/24 12:27 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 002414.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10028,,,,,,,,,,,,,,03/Sep/24 12:00 AM,,,,,,,,0|i0004f:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_330,Done,16/Sep/24 12:26 AM
+Test case 13: Exceeding limit of 500 words for event Description,HOP-25,10024,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 12:23 AM,16/Sep/24 9:16 PM,16/Sep/24 11:17 PM,16/Sep/24 12:23 AM,,0,"*Summary:*
+
+This test case check the behavior of app if user add 500 words in text field option “Event Description“ in “Add event” module.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Enter 502 words in “Event Description“ text field.
+# Enter valid data in all text fields that is required.
+# Press “Add“ button.
+
+*Test Data:* 
+
+Event Name: Orientation
+
+Date: 2024-09-16
+
+Time: 12:00 PM
+
+Organizer: FSES
+
+Budget: 50,000
+
+Venue: Auditrium
+
+Event Description:  “Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Praesent adipiscing. Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero. Cras id dui. Aenean ut eros et nisl sagittis vestibulum. Nullam nulla eros, ultricies sit amet, nonummy id, imperdiet feugiat, pede. Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa. Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. Suspendisse pulvinar, augue ac venenatis condimentum, sem libero volutpat nibh, nec pellentesque velit pede quis nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Fusce id purus. Ut varius tincidunt libero. Phasellus dolor. Maecenas vestibulum mollis diam. Pellentesque“ (502 words)
+
+*Expected Result:*
+
+When user tries to enter more than 500 words in “Event description“ in Add event module, the app should not allow user to cross the limit and show an error message.
+
+*Actual result:*
+
+When user tries to enter more than 500 words in “Event description“ in Add event module, user can only enter 73 words as shown in the picture. Text field does not allow to enter further words
+
+*Status: Fail*",,,,,,,,,,,,HOP-67,,16/Sep/24 12:10 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 001023.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10027,16/Sep/24 12:13 AM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-16 001257.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10026,,,,,,,,,,,,,,,03/Sep/24 12:00 AM,,,,,,,,0|i00047:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10003_*:*_1_*:*_240079_*|*_10005_*:*_1_*:*_518,Done,16/Sep/24 12:23 AM
+Test case 12: Add an event in past,HOP-24,10023,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,16/Sep/24 12:04 AM,16/Sep/24 9:16 PM,16/Sep/24 11:16 PM,16/Sep/24 12:04 AM,,0,"*Summary:*
+
+This test case will check the behavior of app when user tries to add an event in past by a previous date.
+
+*Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Select a date from past and tries to submit it.
+# Press “Add“ button.
+
+*Test Data:* 
+
+Date: 2024-09-02
+
+*Expected Result:*
+
+When user tries to add an event in past by choosing a previous date from present, then app should not allow user and display some error message that says “Event can be added in past!“.
+
+*Actual result:*
+
+When user tries to add an event in past by choosing a previous date from present, app allows him to do so. Event is then added in database.
+
+*Status: Failed*",,,,,,,,,,,,HOP-66,,15/Sep/24 11:59 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 235830.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10024,15/Sep/24 11:59 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 235842.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10023,15/Sep/24 11:59 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 235900.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10025,,,,,,,,,,,,,,03/Sep/24 12:00 AM,,,,,,,,0|i0003z:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_476,Done,16/Sep/24 12:04 AM
+Test case 11: Empty field submission in Add Event,HOP-23,10022,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 11:52 PM,16/Sep/24 9:16 PM,16/Sep/24 11:16 PM,15/Sep/24 11:52 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to add an event without entering any data in text fields.
+
+ *Description:*
+
+# Open Nimbus app
+# Sign up in app.
+# Go to “Add event” module.
+# Leave all text fields empty and try to submit the form.
+# Press “Add“ button.
+
+*Test Data:* 
+
+No input (leave all fields empty).
+
+*Expected Result:*
+
+The app should not allow user to Add an empty event and displays an error message for asking to enter data in all the required fields.
+
+*Actual result:*
+
+When user tries to add an event that has nothing in its text fields, the app allows him to do so. When user press “Add” button event is added to database and a popup message informs user  “Event is added!“.
+
+*Status:* Fail",,,,,,,,,,,,HOP-65,,15/Sep/24 11:06 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 225936.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10020,15/Sep/24 11:53 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 234022.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10021,,,,,,,,,,,,,,,03/Sep/24 12:00 AM,,,,,,,,0|i0003r:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_461,Done,15/Sep/24 11:52 PM
+Test case 10: Invalid email input for sign up,HOP-22,10021,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 10:37 PM,16/Sep/24 9:16 PM,16/Sep/24 11:16 PM,15/Sep/24 10:37 PM,,0,"*Summary:* 
+
+This test case checks the behavior of Nimbus app when user creates a new account but enters email of invalid format. 
+
+*Description:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Enter valid username , email and password.
+# Select the role from drop down menu.
+# Press “Sign up“ button.
+
+*Test Data:* 
+
+* Username: Huda
+* Email: [""1234@gmail.com|mailto:""validuser@domain.com]""
+* Password: ""12345678Aa$"" 
+* Role: ""Members""
+
+*Expected Result:*
+
+When user tries to sign up by using email that does not follow the criteria, the app should not allow it by displaying an error message “Invalid email. Your email should not start with a number“
+
+*Actual result:*
+
+When user tries to signup using an email that does not follow requirements, app does not allows it and user is added in database. App also does not notify any issue to user by displaying any error message.
+
+*Status: Fail*",,,,,,,,,,,,HOP-64,,15/Sep/24 10:39 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 223536.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10018,15/Sep/24 11:53 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 233938.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10022,,,,,,,,,,,,,,,02/Sep/24 12:00 AM,,,,,,,,0|i0003j:,,,HOP Sprint 1,,,,,,,,,,,10002_*:*_2_*:*_72836868_*|*_10014_*:*_1_*:*_99617_*|*_10005_*:*_1_*:*_342,Done,15/Sep/24 10:37 PM
+Test case 9: Signup by entering numbers in username,HOP-21,10020,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 10:27 PM,16/Sep/24 9:16 PM,16/Sep/24 11:16 PM,15/Sep/24 10:27 PM,,0,"*Summary:* 
+
+This test case checks the behavior of Nimbus app when user creates a new account using numbers as username. The threshold for password is : 
+
+* It should not contain any numbers
+* It should not contain any special characters
+
+*Description:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Enter valid username , email and password.
+# Select the role from drop down menu.
+# Press “Sign up“ button.
+
+*Test Data:* 
+
+* Username: 1234
+* Email: [""huda@gmail.com|mailto:""validuser@domain.com]""
+* Password: ""12345678Aa$"" 
+* Role: ""Members""
+
+*Expected Result:*
+
+When user tries to sign up by using numerical number as username that does not follow the criteria, the app should not allow it by displaying an error message “Enter valid username. Your name should not contain any numbers or special characters“
+
+*Actual result:*
+
+When user tries to signup using numerical number as username, app does not allows and show error message “Enter valid username. Your name should not contain any numbers or special characters“
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 10:28 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 222601.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10015,,,,,,,,,,,,,,,,02/Sep/24 12:00 AM,,,,,,,,0|i0003b:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_372,Done,15/Sep/24 10:27 PM
+Test case 8: Weak password format for creating account,HOP-20,10019,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 8:06 PM,16/Sep/24 9:16 PM,16/Sep/24 11:16 PM,15/Sep/24 8:06 PM,,0,"*Summary:* 
+
+This test case checks the behavior of Nimbus app when user creates a new account but sets a weak password. The threshold for password is : 
+
+* It should be greater than 8 characters
+* It must contain at least 1 capital letter
+* It must contain at least 1 small letter
+* It must contain at least 1 special character
+* It must contain at least 8 number
+
+*Description:*
+
+# Open Nimbus app.
+# Press “Sign up” button to go to sign up page.
+# Enter valid username , email and password.
+# Select the role from drop down menu.
+# Press “Sign up“ button.
+
+*Test Data:* 
+
+* Username: Huda
+* Email: [""huda@gmail.com|mailto:""validuser@domain.com]""
+* Password: ""12a45"" 
+* Role: ""Members""
+
+*Expected Result:*
+
+When user tries to sign up by using a weak password that does not follow the criteria, the app should not allow it by displaying an error message “Your password must contain: at least 1 uppercase letter, 1 lowercase letter, 1 special character, and 8 numeric digits“
+
+*Actual result:*
+
+When user tries to signup using a weak password, app does not allows and show error message “Your password must contain: at least 1 uppercase letter, 1 lowercase letter, 1 special character, and 8 numeric digits“
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 10:24 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 222133.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10014,,,,,,,,,,,,,,,,02/Sep/24 12:00 AM,,,,,,,,0|i00033:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_21036,Done,15/Sep/24 8:06 PM
+Test case 7: Empty field submission in sign up,HOP-17,10016,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 7:43 PM,16/Sep/24 9:16 PM,16/Sep/24 11:15 PM,15/Sep/24 7:43 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to sign up without entering any data in Email, Username and Password text fields.
+
+ *Description:*
+
+# Open Nimbus app
+# Press “Sign up“ button to navigate to login page 
+# Enter nothing in email, username and password text fields.
+# Press “Signup“ to navigate to homepage.
+
+*Expected Result:*
+
+The app should not allow user to sign up and displays an error message for asking to enter email, username and password.
+
+*Actual result:*
+
+When user press “Sign up”, Nimbus app does not allow user to navigate to home page by showing an error message “_Enter valid name. Your name should not contain any numbers or special characters_“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 8:02 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 200136.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10013,,,,,,,,,,,,,,,,02/Sep/24 12:00 AM,,,,,,,,0|i0002f:,,,HOP Sprint 1,,,,,,,,,,,10003_*:*_1_*:*_0_*|*_10005_*:*_1_*:*_30292,Done,15/Sep/24 7:43 PM
+Test case 5: Reset password of email on which account does not exists,HOP-14,10013,Test case,Failed,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 6:55 PM,16/Sep/24 9:16 PM,16/Sep/24 11:15 PM,15/Sep/24 7:08 PM,,0,"*Summary:*
+
+This test case checks the behavior of the app if user wants to reset the password of an email on which account does not exists.
+
+*Description:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page
+# Press “forget password” button
+# Enter email in text field and press “Send reset link“
+
+(A reset link will be sent in Email)
+
+*Test Data:* 
+
+Email: [sidra@gmail.com|mailto:sidra@gmail.com]
+
+*Expected Result:*
+
+When user tries to reset password of an email on which account does not exists in database, app should not send an reset password email and show message “Account does not exist on this email!“.
+
+*Actual result:*
+
+When user tries to reset password of an email on which account does not exists, app sends a reset password email and show message “Password reset email sent!“ when user press “Send reset link“ button.
+
+*Status: Fail*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,HOP-63,,15/Sep/24 6:56 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 184142.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10010,,,,,,,,,,,,,,,,01/Sep/24 12:00 AM,,,,,,,,0|i0001j:,,,HOP Sprint 1,,,,,,,,,,,10000_*:*_1_*:*_575101_*|*_10002_*:*_1_*:*_0_*|*_10004_*:*_2_*:*_212505_*|*_10003_*:*_2_*:*_870348,Done,15/Sep/24 7:08 PM
+Test case 6: Reset password of email on which account exists,HOP-12,10011,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 6:44 PM,16/Sep/24 9:16 PM,16/Sep/24 11:15 PM,15/Sep/24 7:26 PM,,0,"*Summary:*
+
+This test case checks the behavior of the app if user wants to reset the password of an email on which account exists.
+
+*Description:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page
+# Press “forget password” button
+# Enter email in text field and press “Send reset link“
+
+(A reset link will be sent in Email)
+
+*Test Data:* 
+
+Email: [kashaf1029@gmail.com|mailto:sidra@gmail.com]
+
+*Expected Result:*
+
+When user tries to reset password of an email on which account exists in database, app should send a reset password email and show message “Password reset email sent!!“. User should receive a link in email.
+
+*Actual result:*
+
+When user tries to reset password of an email on which account exists, app sends a reset password email and show message “Password reset email sent!“ when user press “Send reset link“ button. 
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 7:28 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 192656.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10012,15/Sep/24 7:28 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 192735.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10011,,,,,,,,,,,,,,,02/Sep/24 12:00 AM,,,,,,,,0|i0001r:,,,HOP Sprint 1,,,,,,,,,,,10000_*:*_1_*:*_1759985_*|*_10002_*:*_1_*:*_795366_*|*_10003_*:*_1_*:*_0,Done,15/Sep/24 6:44 PM
+Test case 4: Login using google authentication,HOP-10,10009,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,Medium,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 5:40 PM,16/Sep/24 9:16 PM,16/Sep/24 11:15 PM,15/Sep/24 6:09 PM,,0,"*Summary:* 
+
+This test case checks the behavior of app when user tries to login using google authentication.
+
+*Description:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page.
+# Press “Google icon” for login using google authentication.
+# Select an email from the popup menu.
+# Homepage will be opened.
+
+*Test Data:* 
+
+Google account: [kashaf1029@gmail.com|mailto:kashaf1029@gmail.com]
+
+*Expected Result:*
+
+When user press google login, a pop up menu for selecting email should appear. Upon selection of the email user should be directed to homepage of the role of which email is.
+
+*Actual result:*
+
+When user press google login, a pop up menu for selecting email appeared. Upon selecting of the email user is navigated to guest home page.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 6:06 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 1752102.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10008,,,,,,,,,,,,,,,,01/Sep/24 12:00 AM,,,,,,,,0|i0000n:,,,HOP Sprint 1,,,,,,,,,,,10000_*:*_1_*:*_1752908_*|*_10003_*:*_1_*:*_0,Done,15/Sep/24 6:09 PM
+Test case 3: Login using incorrect password,HOP-9,10008,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 5:24 PM,16/Sep/24 9:15 PM,16/Sep/24 11:14 PM,15/Sep/24 5:35 PM,,0,"*Summary:*
+
+Test case checks the behavior of app when user tries to login using incorrect password.
+
+*Description:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page
+# Enter email and password
+# Press “Login“ button
+
+*Test Data:* 
+
+_1st input:_
+
+* Email: [kas@gmail.com|mailto:kas@gmail.com]
+* Password: 12345678
+
+_2nd input:_
+
+* Email: [kas@gmail.com|mailto:kas@gmail.com]
+* Password: 98765
+
+_3rd input:_
+
+* Email: [kas@gmail.com|mailto:kas@gmail.com]
+* Password: 87654321Aa$
+
+
+
+*Expected Result:*
+
+App should not let user to login using wrong password and display an error message like “_Invalid email or password_“.
+
+*Actual result:*
+
+When user enter incorrect password and press login, Nimbus app does not allow user to navigate to home page by showing an error message “_Invalid email or password_“.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 5:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 173015.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10007,15/Sep/24 5:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 173036.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10006,15/Sep/24 5:32 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 173102.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10005,,,,,,,,,,,,,,01/Sep/24 12:00 AM,,,,,,,,0|i0000f:,,,HOP Sprint 1,,,,,,,,,,,10000_*:*_1_*:*_623778_*|*_10003_*:*_1_*:*_0,Done,15/Sep/24 5:35 PM
+Test case 2: Login using invalid email format,HOP-8,10007,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 4:59 PM,16/Sep/24 9:15 PM,16/Sep/24 11:14 PM,15/Sep/24 5:35 PM,,0,"*Summary:*
+
+Test case checks the behavior of app when user tries to login using an email that has wrong email format.
+
+*Description:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page
+# Enter email and password
+# Press “Login“ button
+
+*Test Data:* 
+
+_1st input:_
+
+* Email: kas@gmail
+* Password: 12345678Aa$
+
+_2nd input:_
+
+* Email: kasgmail@.com
+* Password: 12345678Aa$
+
+_3rd input:_
+
+* Email: kasgmail@com
+* Password: 12345678Aa$
+
+
+
+*Expected Result:*
+
+App should not let user to login using wrong format email and display an error message like “_Invalid email format_“.
+
+*Actual result:*
+
+When user enter wrong format email and press login, Nimbus app does not allow user to navigate to home page by showing an error message “_Invalid email format_“.
+
+*Status: Pass*",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 5:16 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 171543.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10002,15/Sep/24 5:16 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 171626.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10003,15/Sep/24 5:17 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 171658.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10004,,,,,,,,,,,,,,02/Sep/24 12:00 AM,,,,,,,,0|i00007:,,,HOP Sprint 1,,,,,,,,,,,10000_*:*_1_*:*_2147275_*|*_10003_*:*_1_*:*_0,Done,15/Sep/24 5:35 PM
+Test case 1: Empty submission of email and password in login,HOP-7,10006,Test case,Pass,HOP,HopeApp,software,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,High,Done,,,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,15/Sep/24 4:24 PM,16/Sep/24 9:15 PM,16/Sep/24 11:14 PM,15/Sep/24 4:31 PM,,0,"*Summary:*
+
+The test case will check behavior of the app when user tries to login without entering any data in email and password text fields.
+
+ *Description:*
+
+# Open Nimbus app
+# Press “Log in“ button to navigate to login page 
+# Enter nothing in email and password text fields.
+# Press “Login“ to navigate to homepage.
+
+
+*Expected Result:*
+
+The app should not allow user to login and displays an error message for asking to enter email and password.
+
+*Actual result:*
+
+When user press login, Nimbus app does not allow user to navigate to home page by showing an error message “_Invalid email format_“.
+
+*Status:* Pass",,i222415 Kashaf Fatima,712020:73785a66-3e85-45e9-9058-67a85c1fb37e,,,,,,,,,,,15/Sep/24 4:55 PM;712020:73785a66-3e85-45e9-9058-67a85c1fb37e;Screenshot 2024-09-15 165420.png;https://nimbus18work.atlassian.net/rest/api/3/attachment/content/10001,,,,,,,,,,,,,,,,01/Sep/24 12:00 AM,,,,,,,,0|hzzzzz:,,,HOP Sprint 1,,,,,,,,,,,10000_*:*_1_*:*_379785_*|*_10002_*:*_1_*:*_2828_*|*_10003_*:*_1_*:*_0,Done,15/Sep/24 4:31 PM
