@@ -6,6 +6,9 @@ This repository contains a comprehensive Software Quality Assurance (SQA) projec
 
 The primary objective was to evaluate the application's functionality, identify defects, analyze their impact, and provide recommendations for improving software quality and user experience.
 
+###Project link: 
+https://drive.google.com/drive/folders/1i1sYG-IcUFbRoRQomX4iRwHHdUbCt0Gz?usp=sharing
+
 ## Project Scope
 
 The testing activities covered the following modules:
